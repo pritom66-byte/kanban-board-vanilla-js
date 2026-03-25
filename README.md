@@ -11,7 +11,7 @@
   <br/>
   <br/>
   
-  <img src="[<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8581bfe8-4605-4375-bbce-154d6b545fd5" />
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8581bfe8-4605-4375-bbce-154d6b545fd5" />
 " alt="Kanban Board Screenshot" width="800"/>
 </div>
 
