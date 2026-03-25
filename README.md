@@ -8,21 +8,20 @@
   <img src="https://img.shields.io/badge/License-MIT-green" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
   
-  <br/>
-  <br/>
+  <br/><br/>
   
-  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8581bfe8-4605-4375-bbce-154d6b545fd5" />
-" alt="Kanban Board Screenshot" width="800"/>
+  <img width="800" alt="Kanban Board Screenshot" src="https://github.com/user-attachments/assets/8581bfe8-4605-4375-bbce-154d6b545fd5" />
 </div>
 
 ---
 
-## ✨ **Live Demo**
-> 🔗 [View Live Demo]([https://my-kanban-board-vanilla-js.netlify.app/])
+## ✨ Live Demo
+
+🔗 [View Live Demo](https://my-kanban-board-vanilla-js.netlify.app/)
 
 ---
 
-## 🎯 **Why This Project?**
+## 🎯 Why This Project?
 
 This isn't just another todo app. This is a **complete project management tool** built to master JavaScript fundamentals before diving into frameworks like React or Next.js.
 
@@ -30,9 +29,10 @@ This isn't just another todo app. This is a **complete project management tool**
 
 ---
 
-## 🌟 **Features**
+## 🌟 Features
 
 ### Core Features
+
 | Feature | Description |
 |---------|-------------|
 | 📝 **Task Management** | Add, edit, delete tasks with ease |
@@ -43,16 +43,17 @@ This isn't just another todo app. This is a **complete project management tool**
 | 🎨 **Modern UI** | Clean gradient design with smooth interactions |
 
 ### Technical Highlights
-- ✅ **Pure Vanilla JavaScript** - No frameworks, no dependencies
-- ✅ **State Management** - Centralized state with immutability
-- ✅ **Event Delegation** - Efficient event handling
-- ✅ **Local Storage** - Persistent data across sessions
-- ✅ **Dynamic Rendering** - Real-time UI updates
-- ✅ **Modal System** - Beautiful forms for task management
+
+- ✅ **Pure Vanilla JavaScript** – No frameworks, no dependencies
+- ✅ **State Management** – Centralized state with immutability
+- ✅ **Event Delegation** – Efficient event handling
+- ✅ **Local Storage** – Persistent data across sessions
+- ✅ **Dynamic Rendering** – Real-time UI updates
+- ✅ **Modal System** – Beautiful forms for task management
 
 ---
 
-## 🚀 **Tech Stack**
+## 🚀 Tech Stack
 
 <div align="center">
 
@@ -63,4 +64,7 @@ This isn't just another todo app. This is a **complete project management tool**
 </div>
 
 ---
+
+## 📁 Project Structure
+
 
