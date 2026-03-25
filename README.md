@@ -62,9 +62,3 @@ This isn't just another todo app. This is a **complete project management tool**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
-
----
-
-## 📁 Project Structure
-
-
