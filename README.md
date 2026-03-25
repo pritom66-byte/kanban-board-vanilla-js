@@ -11,13 +11,14 @@
   <br/>
   <br/>
   
-  <img src="[Your Screenshot Link]" alt="Kanban Board Screenshot" width="800"/>
+  <img src="[<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8581bfe8-4605-4375-bbce-154d6b545fd5" />
+" alt="Kanban Board Screenshot" width="800"/>
 </div>
 
 ---
 
 ## ✨ **Live Demo**
-> 🔗 [View Live Demo]([Your Live Link])
+> 🔗 [View Live Demo]([https://my-kanban-board-vanilla-js.netlify.app/])
 
 ---
 
