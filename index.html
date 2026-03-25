@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kanban</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=512w&id=DaS2a9JEdrjj&format=png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="app">
+        <header>
+            <h1>📋 Kanban Board</h1>
+
+            <div class="header-controls">
+                <button class="btn btn-primary" id="addColumnBtn">+ Add Column</button>
+                <button class="btn btn-secondary" id="exportBtn">Export Board</button>
+                <button class="btn btn-secondary" id="importBtn">Import Board</button>
+                <input type="file" id="fileInput" accept=".json" style="display:none" />
+            </div>
+        </header>
+
+        <div class="board-controls">
+            <input type="text" placeholder="🔍 Search tasks..." id="searchInput" class="search-input">
+            <div class="view-controls">
+                <button class="view-btn active" data-view="grid">Grid View</button>
+                <button class="view-btn " data-view="list">List View</button>
+            </div>
+        </div>
+
+
+        <!-- showing board -->
+         <div id="board"></div>
+
+
+
+         <!-- form modal -->
+
+         <div class="modal-overlay" id="formModal">
+  <div class="modal">
+
+    <h2>Add Task</h2>
+
+    <label>Title</label>
+    <input type="text" id="newTitle">
+
+    <label>Description</label>
+    <textarea style="resize: none;" id="newDescription"></textarea>
+
+    <label>Priority</label>
+    <select id="newPriority">
+      <option value="low">Low</option>
+      <option value="medium" selected>Medium</option>
+      <option value="high">High</option>
+    </select>
+
+    <label>Due Date</label>
+    <input type="date" id="newDate">
+
+    <div class="modal-buttons">
+      <button id="openAddTaskModal" class="btn-primary btn">Save Task</button>
+      <button id="closeAddTaskModal" class="btn btn-secondary">Cancel</button>
+    </div>
+
+  </div>
+</div>
+    </div>
+
+
+    <!-- Delate modal -->
+
+    <div class="modal-overlay" id="deleteModal">
+
+  <div class="modal">
+
+    <h2>Confirm Action</h2>
+    <p>Delete this task?</p>
+
+    <div class="delateModalBtn">
+      <button class="yes-btn btn" id="confirmDelete">Yes</button>
+      <button class="no-btn btn" id="cancelDelete">No</button>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- add column  modal -->
+<div id="columnModal" class="modal-overlay">
+    <div class="modal">
+        <div class="modal-content">
+        <form action="" id="addColumnForm">
+            <div class="modal-header">
+             <h2>Add New Column</h2>
+            <span class="close-column-modal">&times;</span>
+        </div>
+        <div class="form-group">
+            <label for="newColumnName">Colum Name:</label>
+            <input type="text" id="newColumnName" required maxlength="30">
+        </div>
+        <div class="add-col-modal-btn">
+            <button type="submit" class="btn-primary btn" id="confirm-add-col">Add Column</button>
+            <button class="btn" id="cancel-add-col">Cancel</button>
+        </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+
+<!-- edit column modal -->
+
+<div id="editColumnModal" class="modal-overlay">
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Change column name</h2>
+                <span id="cross-column-modal" class="close-column-modal">&times;</span>
+            </div>
+
+            <div class="form-group">
+                <label for="newColumnName">Column Name:</label>
+                <input type="text" id="newColumnName-edit" required maxlength="30">
+            </div>
+
+            <div class="add-col-modal-btn">
+                <button class="btn-primary btn" id="confirm-edit-col">Add Column</button>
+                <button class="btn" id="cancel-edit-col">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
