@@ -63,4 +63,3 @@ This isn't just another todo app. This is a **complete project management tool**
 
 ---
 
-## 📂 **Project Structure**
